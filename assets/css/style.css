@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #4fa6d5;
+  color: #444;
   text-decoration: none;
 }
 
 a:hover {
-  color: #45beff;
+  color: #d6a04c;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #ba8a59;
+  background: #348C31 ;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #dbb56f;
+  background: #348c31b7 ;
   color: #fff;
 }
 .back-to-top.active {
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: none;
 }
 #header.header-scrolled {
-  background: #876a5ad3;
+  background: #876a5aa6;
   height: 60px;
 }
 #header .logo h1 {
@@ -82,6 +82,11 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
+}
+
+.strokeme {
+  color: #257c22;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.87);
 }
 
 .mulch {
@@ -143,7 +148,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-left: 5px;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: rgba(255, 255, 255, 0.76);
+  color: #46b442;
 }
 .navbar .dropdown ul {
   display: block;
@@ -313,8 +318,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 96%;
-  background: #d6a04c;
-  opacity: 0.3;
+  background: #348C31 ;
+  opacity: 0.7;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) translateY(18px) rotate(2deg);
@@ -370,7 +375,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border: 2px solid #ffffff;
 }
 #hero .btn-get-started:hover {
-  background: #876a5a;
+  background: #348c3185 ;
   color: #fff;
   text-decoration: none;
 }
@@ -429,7 +434,7 @@ section {
 }
 
 .section-bg {
-  background-color: #ba8a59;
+  background-color: #876a5afc;
 }
 
 .section-title {
@@ -609,11 +614,15 @@ section {
   transition: 0.5s;
 }
 .why-us .icon-box .icon i {
-  color: #725a4d;
+  color: #348C31 ;
   font-size: 32px;
 }
+.img-shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+
+}
 .why-us .icon-box:hover .icon {
-  background: #ba8a59;
+  background: #348C31 ;
 }
 .why-us .icon-box:hover .icon i {
   color: #fff;
@@ -626,11 +635,11 @@ section {
   text-transform: uppercase;
 }
 .why-us .icon-box .title a {
-  color: #343a40;
+  color: #348C31 ;
   transition: 0.3s;
 }
 .why-us .icon-box .title a:hover {
-  color: #876a5a;
+  color: #348C31 ;
 }
 .why-us .icon-box .description {
   margin-left: 95px;
@@ -692,7 +701,7 @@ section {
   background: rgba(198, 16, 0, 0);
 }
 .why-us .play-btn:hover::after {
-  border-left: 15px solid rgba(219,181,111);
+  border-left: 15px solid #348C31;
   transform: scale(20);
 }
 .why-us .play-btn:hover::before {
@@ -777,7 +786,7 @@ section {
 .about ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #68A4C4;
+  color: #348C31 ;
 }
 .about p:last-child {
   margin-bottom: 0;
@@ -943,13 +952,13 @@ section {
   transition: 0.3s;
 }
 .service-details .read-more a:hover {
-  color: #ba8a59;
+  color: #348C31;
 }
 .service-details .card:hover img {
   transform: scale(1.1);
 }
 .service-details .card:hover .card-body {
-  border-color: #ba8a59;
+  border-color: #348C31;
 }
 .service-details .card:hover .card-body .card-title a {
   color: #ba8a59;
@@ -1079,11 +1088,11 @@ section {
   font-family: "Roboto", sans-serif;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  border-color: #876a5a;
+  border-color: #348C31;
   color: #876a5a;
 }
 .portfolio .portfolio-item {
-  background: #ba8a59;
+  background: #348C31;
   overflow: hidden;
   min-height: 200px;
   position: relative;
@@ -1267,7 +1276,8 @@ section {
   color: #d6a04c;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #ba8a59;
+  border: 2px dotted #348C31 ;
+  ;
 }
 .contact .info-box h3 {
   font-size: 20px;
