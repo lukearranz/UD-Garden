@@ -464,7 +464,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #68A4C4;
+  background: #257c22;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -894,10 +894,10 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #68A4C4;
+  border: 1px solid #257c22;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #68A4C4;
+  background-color: #257c22;
 }
 
 /*--------------------------------------------------------------
