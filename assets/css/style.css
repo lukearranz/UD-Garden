@@ -894,7 +894,7 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #257c22;
+  border: 1px solid #876a5a;
 }
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #257c22;
@@ -1856,7 +1856,7 @@ section {
   background: #725a4d;
   border-top: 1px solid #dbb56f;
   border-bottom: 1px solid #dbb56f;
-  padding: 60px 0 30px 0;
+  padding: 30px 0 5px 0;
 }
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
