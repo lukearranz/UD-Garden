@@ -52,16 +52,15 @@
       <!-- NAVBAR -->
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a <!--class="active" href="index.html">Inicio</a></li>
-          <li><a href="#productos">Productos</a></li>
-          <li><a href="#recomendaciones">Instrucciones</a></li>
-          <li><a href="#mulch">Detalles</a></li>
-          <li><a href="#portfolio">Trabajos</a></li>
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#productos">Mulch</a></li>
+          <li><a href="portfolio-details.html">Productos</a></li>
+          <li><a href="#trabajos">Trabajos</a></li>
           <li><a href="#clientes">Clientes</a></li>
-          <li class="dropdown"><a href="#contacto"><span>Contacto</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
+          <li></a><a href="#contacto"><span>Contacto</span></a>
+            <!--<ul>
               <li><a href="#">Instagram</a></li>
-              <!--<li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
                   <li><a href="#">Deep Drop Down 2</a></li>
@@ -69,11 +68,11 @@
                   <li><a href="#">Deep Drop Down 4</a></li>
                   <li><a href="#">Deep Drop Down 5</a></li>
                 </ul>
-              </li>-->
+              </li>
               <li><a href="#">Mail</a></li>
               <li><a href="#">Whatsapp</a></li>
               <li><a href="#">Drop Down 4</a></li>
-            </ul>
+            </ul>-->
           </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -96,6 +95,7 @@
       </div>
 
       <!-- Slide 2 -->
+      <!--
       <div class="carousel-item">
         <div class="carousel-container">
           <h2 class="animate__animated animate__fadeInDown mulch"><span class="mulch">El mejor Mulch de Uruguay.</span></h2>
@@ -110,7 +110,7 @@
 
       <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-      </a>
+      </a> -->
 
     </div>
   </section><!-- End Hero -->
@@ -118,8 +118,12 @@
   <main id="main">
 
     <!-- ======= DOS PRODUCTOS Section ======= -->
-    <section class="service-details">
-      <div class="container" id="productos">
+    <section class="service-details" id="productos" data-aos="fade-up"> <br> <br>
+      <div class="section-title">
+        <h2>- Mulch -</h2>
+        <!--<p>Estos clientes confiaron en nosotros.</p>-->
+      </div>
+      <div class="container" >
     
         <div class="row">
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
@@ -128,12 +132,12 @@
                 <img src="assets/img/mulch1.png" alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="#">Mulch de Eucalyptus</a></h5>
+                <h4 class="card-title">Eucalyptus</h4>
                 <p class="card-text">Recomendaciones de uso: <br>
                   Se debe aplicar en una capa de 4 a 8 cm. Cuanto más gruesa la capa, mejor para la protección contra
                   malezas, evaporación del agua y cambios de temperatura.
                 </p>
-                <div class="read-more"><a href="#mulch"><i class="bi bi-arrow-right"></i> Ver más</a></div>
+                <div class="read-more"><a href="portfolio-details.html"><i class="bi bi-arrow-right"></i> Ver más</a></div>
               </div>
             </div>
           </div>
@@ -143,17 +147,17 @@
                 <img src="assets/img/mulch2.png" alt="...">
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="#">Mulch de corteza de pino</a></h5>
+                <h4 class="card-title">Corteza de pino</h4>
                 <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium,
                   totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
                   explicabo</p>
-                <div class="read-more"><a href="#mulch"><i class="bi bi-arrow-right"></i> Ver más</a></div>
+                <div class="read-more"><a href="#mulch2"><i class="bi bi-arrow-right"></i> Ver más</a></div>
               </div>
             </div>
           </div>
     
         </div>
-    </section><!-- End DOS PRODUCTOS Section -->
+    </section><!-- End DOS PRODUCTOS Section --> <br> <br>
 
 
     
@@ -175,14 +179,14 @@
               <div class="icon"><i class="bi bi-tree"></i></div>
               <h4 class="title" style="color: #348C31;">Recomendaciones de uso:</h4>
               <p class="description">
-                Se debe aplicar en una capa de 4 a 8 cm. Cuanto más gruesa la capa, mejor para la protección contra malezas, evaporación del agua y cambios de temperatura.
+                Se debe aplicar una capa de 4 a 8 cm. Cuanto más gruesa la capa, mejor para la protección contra malezas, evaporación del agua y cambios de temperatura.
                 </p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bi bi-moisture"></i></div>
               <h4 class="title" style="color: #348C31;">Rendimiento:</h4>
-              <p class="description">Cada bolsa de 50 litros tiene un rendimiento de 1m<sup>2</sup></p>
+              <p class="description">Cada bolsa de 50 litros tiene un rendimiento de 1m<sup>2</sup>  (5cm de profundidad).</p>
             </div>
 
           </div>
@@ -190,9 +194,9 @@
 
       </div>
     </section><!-- RECOMENDACIONES Y RENDIMIENTO Section Section -->
-
-    <!-- ======= BOLSA de MULCH Section ======= -->
-    <section class="about" data-aos="fade-up" id="mulch">
+    
+    <!--
+    <section class="about" data-aos="fade-up" id="mulch1"> <br> <br>
       <div class="container">
     
         <div class="row">
@@ -218,14 +222,15 @@
               Color tostado claro, aspecto y textura natural lo convierten en una excelente opción para jardines y
               paisajismo.
             </p>
+            <a href="https://articulo.mercadolibre.com.uy/MLU-476263637-mulch-de-eucalyptus-50-litros-jardin-paisajismo-biosustrato-_JM" target="blank" class="btn-comprar">Comprar</a>
           </div>
         </div>
     
       </div>
-    </section><!-- end BOLSA de MULCH Sectio Section -->
-
-    <!-- ======= BOLSA de MULCH2 Section ======= -->
-    <section class="about" data-aos="fade-up" style="padding: 0;">
+    </section><!-- end BOLSA de MULCH Sectio Section  <br> <br>
+    
+    <!-- ======= BOLSA de MULCH2 Section ======= 
+    <section class="about" data-aos="fade-up" id="mulch2" style="padding: 0;"> <br> <br>
       <div class="container">
     
         <div class="row">
@@ -256,15 +261,15 @@
         </div>
     
       </div>
-    </section><!-- end BOLSA de MULCH2 Sectio Section -->
+    </section><!-- end BOLSA de MULCH2 Sectio Section --> 
     
 
     <!-- ======= PORTFOLIO Section ======= -->
-    <section class="portfolio" id="portfolio">
+    <section class="portfolio" id="trabajos" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500"> <br> <br>
       <div class="container">
         
         <div class="section-title">
-          <h2>Trabajos</h2>
+          <h2>- Trabajos -</h2>
           <!--<p>Estos clientes confiaron en nosotros.</p>-->
         </div>
 
@@ -285,11 +290,9 @@
             <div class="portfolio-item">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>App 1</h3>
+
                 <div>
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -299,11 +302,10 @@
             <div class="portfolio-item">
               <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Web 3</h3>
+
                 <div>
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                  
                 </div>
               </div>
             </div>
@@ -313,11 +315,10 @@
             <div class="portfolio-item">
               <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>App 2</h3>
+
                 <div>
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
                 </div>
               </div>
             </div>
@@ -327,11 +328,10 @@
             <div class="portfolio-item">
               <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Card 2</h3>
+
                 <div>
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
                 </div>
               </div>
             </div>
@@ -341,11 +341,10 @@
             <div class="portfolio-item">
               <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Web 2</h3>
+
                 <div>
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
                 </div>
               </div>
             </div>
@@ -355,11 +354,9 @@
             <div class="portfolio-item">
               <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>App 3</h3>
                 <div>
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
                 </div>
               </div>
             </div>
@@ -369,11 +366,10 @@
             <div class="portfolio-item">
               <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Card 1</h3>
+
                 <div>
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
                 </div>
               </div>
             </div>
@@ -383,11 +379,10 @@
             <div class="portfolio-item">
               <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Card 3</h3>
+
                 <div>
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
                 </div>
               </div>
             </div>
@@ -397,11 +392,10 @@
             <div class="portfolio-item">
               <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h3>Web 1</h3>
+
                 <div>
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="Web 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+
                 </div>
               </div>
             </div>
@@ -413,17 +407,17 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= CLIENTES Section ======= -->
-    <section class="testimonials" data-aos="fade-up">
+    <section class="testimonials" data-aos="fade-up" id="clientes"> <br> <br> <br> <br>
       <div class="container">
     
-        <div class="section-title" id="clientes">
-          <h2>Nuestros Clientes</h2>
+        <div class="section-title" >
+          <h2>- Nuestros Clientes -</h2>
           <!--<p>Estos clientes confiaron en nosotros.</p>-->
         </div>
     
-        <div class="testimonials-carousel swiper">
-          <div class="swiper-wrapper">
-            <div class="testimonial-item swiper-slide">
+        <div>
+          <div class="d-flex justify-content-around">
+            <div class="testimonial-item">
               <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
@@ -435,42 +429,47 @@
               </p>-->
             </div>
     
-            <div class="testimonial-item swiper-slide">
+            <div class="testimonial-item">
               <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
               
             </div>
     
-            <div class="testimonial-item swiper-slide">
+            <div class="testimonial-item">
               <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
               <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
              
             </div>
     
-            <div class="testimonial-item swiper-slide">
+            <div class="testimonial-item">
               <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
               <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
               
             </div>
     
-            <div class="testimonial-item swiper-slide">
+            <div class="testimonial-item">
               <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
               
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+
         </div>
     
       </div>
     </section><!-- End CLIENTES Section -->
 
     <!-- ======= CONTACTO Section ======= -->
-    <section class="contact" id="contacto" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+    <section class="contact" id="contacto" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500"> <br> <br> <br>
+      <div class="section-title" >
+        <h2>- Contacto -</h2>
+        <!--<p>Estos clientes confiaron en nosotros.</p>-->
+      </div>
+
       <div class="container">
 
         <div class="row">
@@ -480,21 +479,11 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="info-box">
-                  <i class="bx bx-map"></i>
-                  <h3>Dirección</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
                   <i class="bx bxl-instagram"></i>
                   <h3>Instagram</h3>
                   <p><a href="https://www.instagram.com/udgarden.uy/" target="blank"> UD Garden </a></p>
                 </div>
               </div>
-            </div>
-
-            <div class="row">
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bx bx-envelope"></i>
@@ -502,6 +491,10 @@
                   <p><a href="mailto:udgarden.uy@gmail.com" target="blank" >udgarden.uy@gmail.com</a></p>
                 </div>
               </div>
+              
+            </div>
+
+            <div class="row">
               <div class="col-md-6">
                 <div class="info-box">
                   <i class="bx bxl-whatsapp"></i>
@@ -509,6 +502,14 @@
                   <p>+1 5589 55488 55</p>
                 </div>
               </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Dirección</h3>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+              
             </div>
 
           </div>
@@ -519,7 +520,7 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+  <footer id="footer">
 
     <div class="footer-top">
       <div class="container">
@@ -563,10 +564,9 @@
             <h3>Sobre UD Garden:</h3>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p> <br> <br>
             <div class="social-links mt-3">
-              <a href="mailto:udgarden.uy@gmail.com" target="blank" ><i class="bx bx-envelope"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="https://www.instagram.com/udgarden.uy/" target="blank"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="mailto:udgarden.uy@gmail.com" target="blank" ><i class="bx bx-envelope"></i></a>
+              <a href="#" target="blank"><i class="bx bxl-whatsapp"></i></a>
             </div>
           </div>
 
