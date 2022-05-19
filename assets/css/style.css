@@ -394,14 +394,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #ffe600;
+  color: #348C31;
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
-  border: 2px solid #ffe600;
+  border: 2px solid #348C31;
   text-decoration: none;
 }
 .btn-comprar:hover {
   background: #ffe600 ;
+  border-color: #ffe600;
   color: #fff;
   text-decoration: none;
 }
@@ -417,14 +418,15 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #00bb2d;
+  color: #348C31;
   -webkit-animation-delay: 0.5s;
   animation-delay: 0.5s;
-  border: 2px solid #00bb2d;
+  border: 2px solid #348C31;
   text-decoration: none;
 }
 .btn-contactar:hover {
   background: #00bb2d ;
+  border-color: #00bb2d;
   color: #fff;
   text-decoration: none;
 }

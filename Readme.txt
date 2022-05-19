@@ -9,4 +9,4 @@ License: https://bootstrapmade.com/license/
 
 BUGS!
 
-clientes en linea
+clientes en linea // SOLUCIONADO //
