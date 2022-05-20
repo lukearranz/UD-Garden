@@ -402,8 +402,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 .btn-comprar:hover {
   background: #ffe600 ;
-  border-color: #ffe600;
-  color: #fff;
+  border-color: #348C31;
+  color: #348C31;
   text-decoration: none;
 }
 
@@ -426,7 +426,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 .btn-contactar:hover {
   background: #00bb2d ;
-  border-color: #00bb2d;
+  border-color: #348C31;
   color: #fff;
   text-decoration: none;
 }
