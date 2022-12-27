@@ -1,581 +1,908 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>UD Garden</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>UD Garden</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/UD_logo.jpg" rel="icon" />
+    <link href="assets/img/UD_logo.jpg" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/UD_logo.jpg" rel="icon">
-  <link href="assets/img/UD_logo.jpg" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
-    rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
+  <body>
+    <!-- ======= Header ======= -->
+    <header
+      id="header"
+      class="fixed-top d-flex align-items-center header-transparent"
+    >
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="logo">
+          <h1 class="text-light">
+            <a href="index.html"
+              ><span>UD</span> <span class="strokeme"> Garden</span></a
+            >
+          </h1>
+        </div>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-    <div class="container d-flex justify-content-between align-items-center">
-
-      <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>UD</span> <span class="strokeme"> Garden</span></a></h1>
+        <!-- ====== Navbar ====== -->
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#productos">Mulch</a></li>
+            <li class="dropdown">
+              <a href="#productos"
+                ><span>Productos</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li><a href="detalleEucalyptus.html">Mulch Eucalyptus</a></li>
+                <li><a href="detallePino.html">Corteza de pino</a></li>
+              </ul>
+            </li>
+            <li><a href="#trabajos">Trabajos</a></li>
+            <li><a href="#clientes">Clientes</a></li>
+            <li>
+              <a href="#contacto"><span>Contacto</span></a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- End Navbar -->
       </div>
+    </header>
+    <!-- End Header -->
 
-      <!-- ====== Navbar ====== -->
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="#hero">Inicio</a></li>
-          <li><a href="#productos">Mulch</a></li>
-          <li class="dropdown"><a href="#productos"><span>Productos</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="detalleEucalyptus.html">Mulch Eucalyptus</a></li>
-              <li><a href="detallePino.html">Corteza de pino</a></li>
-            </ul>
-          </li>
-          <li><a href="#trabajos">Trabajos</a></li>
-          <li><a href="#clientes">Clientes</a></li>
-          <li></a><a href="#contacto"><span>Contacto</span></a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- End Navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex justify-cntent-center align-items-center">
-    <div id="heroCarousel" class="container carousel carousel-fade" data-bs-ride="carousel">
-
-      <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown mulch"><span class="mulch">Bienvenidos a UD Garden</span>
-          </h2>
-          <p class="animate__animated animate__fadeInUp">Empresa dedicada a la producción de mulch decorativo para
-            jardines y paisajismo</p>
-          <a href="#productos" class="btn-get-started animate__animated animate__fadeInUp">Ver más</a>
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex justify-cntent-center align-items-center">
+      <div
+        id="heroCarousel"
+        class="container carousel carousel-fade"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-item active">
+          <div class="carousel-container">
+            <h2 class="animate__animated animate__fadeInDown mulch">
+              <span class="mulch">Bienvenidos a UD Garden</span>
+            </h2>
+            <p class="animate__animated animate__fadeInUp">
+              Empresa dedicada a la producción de mulch decorativo para jardines
+              y paisajismo
+            </p>
+            <a
+              href="#productos"
+              class="btn-get-started animate__animated animate__fadeInUp"
+              >Ver más</a
+            >
+          </div>
         </div>
       </div>
+    </section>
+    <!-- End Hero -->
 
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= DOS PRODUCTOS Section ======= -->
-    <section class="service-details" id="productos" data-aos="fade-up"> <br> <br>
-      <div class="section-title">
-        <h2>- Mulch -</h2>
-      </div>
-      <div class="container">
-
-        <div class="row">
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <a href="detalleEucalyptus.html">
-              <div class="card">
-                <div class="card-img img-shadow">
-                  <img loading="lazy" src="assets\img\manoEdit.jpg" alt="...">
+    <main id="main">
+      <!-- ======= DOS PRODUCTOS Section ======= -->
+      <section class="service-details" id="productos" data-aos="fade-up">
+        <br />
+        <br />
+        <div class="section-title">
+          <h2>- Mulch -</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+              <a href="detalleEucalyptus.html">
+                <div class="card">
+                  <div class="card-img img-shadow">
+                    <img
+                      loading="lazy"
+                      src="assets\img\manoEdit.jpg"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Mulch Eucalyptus</h4>
+                    <p class="card-text">
+                      Mulch de color tostado claro y tamaño de 3-5 cm. De larga
+                      duración, este mulch es perfecto para jardines y
+                      paisajismo en general.
+                    </p>
+                    <br />
+                    <div class="read-more">
+                      <a href="detalleEucalyptus.html"
+                        ><i class="bi bi-arrow-right"></i>
+                        <b>Ver Producto</b></a
+                      >
+                    </div>
+                  </div>
                 </div>
-                <div class="card-body">
-                  <h4 class="card-title">Mulch Eucalyptus</h4>
-                  <p class="card-text">
-                    Mulch de color tostado claro y tamaño de 3-5 cm. De larga duración, este mulch es perfecto para
-                    jardines y paisajismo en general.
-                  </p>
-                  <br>
-                  <div class="read-more"><a href="detalleEucalyptus.html"><i class="bi bi-arrow-right"></i> <b>Ver Producto</b></a>
+              </a>
+            </div>
+
+            <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+              <a href="detallePino.html">
+                <div class="card">
+                  <div class="card-img img-shadow">
+                    <img
+                      loading="lazy"
+                      src="assets\img\palaEdit.jpg"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="card-body">
+                    <h4 class="card-title">Corteza de Pino</h4>
+                    <p class="card-text">
+                      De color rojo/marrón natural y tamaño de chip de 3-5 cm.
+                      La corteza de pino ofrece una terminación decorativa a
+                      cualquier jardín.
+                    </p>
+                    <br />
+                    <div class="read-more">
+                      <a href="detallePino.html"
+                        ><i class="bi bi-arrow-right"></i>
+                        <b>Ver Producto</b></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End DOS PRODUCTOS Section -->
+      <br />
+      <br />
+
+      <!-- ======= RECOMENDACIONES Y RENDIMIENTO Section ======= -->
+      <section
+        class="why-us section-bg"
+        id="recomendaciones"
+        data-aos="fade-up"
+        date-aos-delay="200"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 video-box">
+              <img
+                loading="lazy"
+                src="assets\img\recomendacionesDeUso.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+
+            <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-chat-square-text"></i></div>
+                <h4 class="title" style="color: #348c31">
+                  Recomendaciones de uso:
+                </h4>
+                <p class="description">
+                  Se recomienda aplicar una capa de 4 a 8 cm. Cuanto más gruesa
+                  la capa, mejor para la protección contra malezas, evaporación
+                  del agua y cambios de temperatura.
+                </p>
+              </div>
+
+              <div class="icon-box">
+                <div class="icon"><i class="bi bi-moisture"></i></div>
+                <h4 class="title" style="color: #348c31">Rendimiento:</h4>
+                <p class="description">
+                  Una bolsa de 50 litros rinde 1m<sup>2</sup> (5cm de espesor).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- RECOMENDACIONES Y RENDIMIENTO Section Section -->
+
+      <!-- ======= PORTFOLIO Section ======= -->
+      <section
+        class="portfolio"
+        id="trabajos"
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="500"
+      >
+        <br />
+        <br />
+        <div class="container">
+          <div class="section-title">
+            <h2>- Trabajos -</h2>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="500"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Corteza de pino - maceta cerca.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Corteza de pino - maceta cerca.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
                   </div>
                 </div>
               </div>
-            </a>
-          </div>
+            </div>
 
-          <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <a href="detallePino.html">
-              <div class="card">
-                <div class="card-img img-shadow">
-                  <img loading="lazy" src="assets\img\palaEdit.jpg" alt="...">
-                </div>
-                <div class="card-body">
-                  <h4 class="card-title">Corteza de Pino</h4>
-                  <p class="card-text">
-                    De color rojo/marrón natural y tamaño de chip de 3-5 cm. La corteza de pino ofrece una terminación
-                    decorativa
-                    a cualquier jardín.
-                  </p>
-                  <br>
-                  <div class="read-more"><a href="detallePino.html"><i class="bi bi-arrow-right"></i> <b>Ver Producto</b></a></div>
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Maceta palmera cropped.JPG"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Maceta palmera.JPG"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
-            </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Raphis y palmera.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Raphis y palmera.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="500"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Frente de casa.JPG"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Frente de casa.JPG"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\grand hotel cropped.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\grand hotel.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Huerta mica cropped.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Huerta mica.webp"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="500"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Marrero frente.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Marrero frente.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Corteza de pino - pittosporum.webp"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Corteza de pino - pittosporum.webp"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Ficus cropped.JPG"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Ficus.JPG"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="500"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Faro jose ignacio 2.jpeg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Faro jose ignacio 2.jpeg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Corteza de pino -  diete cufia.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Corteza de pino -  diete cufia.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Marrero vista al jardin.webp"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Marrero vista al jardin.webp"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="500"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Faro jose ignacio.jpeg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Faro jose ignacio.jpeg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Huerta vicky cropped.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Huerta vicky cropped.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\grand hotel (2) cropped.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\grand hotel (2).jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="row portfolio-container"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="500"
+          >
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Huerta sarita.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Huerta sarita.jpg"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\huerta mica 2 cropped.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\huerta mica 2.webp"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-wrap">
+              <div class="portfolio-item">
+                <img
+                  loading="lazy"
+                  src="assets\img\portfolio\Obra laurita.webp"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="portfolio-info">
+                  <div>
+                    <a
+                      href="assets\img\portfolio\Obra laurita.webp"
+                      data-gallery="portfolioGallery"
+                      class="portfolio-lightbox"
+                      ><i class="bx bx-plus"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section><!-- End DOS PRODUCTOS Section --> <br> <br>
+      </section>
+      <!-- End Portfolio Section -->
 
-    <!-- ======= RECOMENDACIONES Y RENDIMIENTO Section ======= -->
-    <section class="why-us section-bg" id="recomendaciones" data-aos="fade-up" date-aos-delay="200">
-      <div class="container">
+      <!-- ======= CLIENTES Section ======= -->
+      <section class="testimonials" data-aos="fade-up" id="clientes">
+        <br />
+        <br />
+        <br />
+        <br />
 
-        <div class="row">
-          <div class="col-lg-6 video-box">
-            <img loading="lazy" src="assets\img\recomendacionesDeUso.jpg" class="img-fluid" alt="">
+        <div class="section-title">
+          <h2>- Nuestros Clientes -</h2>
+        </div>
+
+        <div class="container">
+          <div class="d-lg-flex justify-content-around">
+            <div class="testimonial-item">
+              <img
+                loading="lazy"
+                src="assets\img\nuestrosClientes\Gr Vivero Nativo.jpg"
+                class="testimonial-img"
+                alt=""
+              />
+              <h4>Vivero Nativo</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <img
+                loading="lazy"
+                src="assets\img\nuestrosClientes\puntaVerde.png"
+                class="testimonial-img"
+                alt=""
+              />
+              <h4>Punta Verde</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <img
+                loading="lazy"
+                src="assets\img\nuestrosClientes\Arpa arquitectura.png"
+                class="testimonial-img"
+                alt=""
+              />
+              <h4>Arpa Arquitectura</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <img
+                loading="lazy"
+                src="assets\img\nuestrosClientes\The grand hotel.jpg"
+                class="testimonial-img"
+                alt=""
+              />
+              <h4>The Grand Hotel</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <img
+                loading="lazy"
+                src="assets\img\nuestrosClientes\yoo.png"
+                class="testimonial-img"
+                alt=""
+              />
+              <h4>Yoo Punta del Este</h4>
+            </div>
+
+            <div class="testimonial-item">
+              <img
+                loading="lazy"
+                src="assets\img\nuestrosClientes\Explora vivero.png"
+                class="testimonial-img"
+                alt=""
+              />
+              <h4>Explora Vivero</h4>
+            </div>
           </div>
+        </div>
+      </section>
+      <!-- End CLIENTES Section -->
 
-          <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+      <!-- ======= CONTACTO Section ======= -->
+      <section
+        class="contact"
+        id="contacto"
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="500"
+      >
+        <br />
+        <br />
+        <br />
+        <div class="section-title">
+          <h2>- Contacto -</h2>
+        </div>
 
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-chat-square-text"></i></div>
-              <h4 class="title" style="color: #348C31;">Recomendaciones de uso:</h4>
-              <p class="description">
-                Se recomienda aplicar una capa de 4 a 8 cm. Cuanto más gruesa la capa, mejor para la protección contra
-                malezas, evaporación del agua y cambios de temperatura.
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bx bxl-instagram"></i>
+                    <h3>Instagram</h3>
+                    <p>
+                      <a
+                        href="https://www.instagram.com/udgarden.uy/"
+                        target="blank"
+                      >
+                        UD Garden
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Mail</h3>
+                    <p>
+                      <a
+                        href="mailto:udgarden.uy@gmail.com?subject=Contacto UD Garden"
+                        target="blank"
+                        >udgarden.uy@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bx bxl-whatsapp"></i>
+                    <h3>Whatsapp</h3>
+                    <a
+                      href="https://wa.me/094123035?text=Me%20interesa%20obtener%20informacion%20sobre%20su%20servicio."
+                      target="blank"
+                    >
+                      <p>094123035</p>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box">
+                    <i class="bx bx-map"></i>
+                    <h3>Dirección</h3>
+                    <p>Montevideo / Punta del Este</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End CONTACTO Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 footer-contact">
+              <p>
+                Montevideo <br />
+                Punta del Este<br />
+                <b>Uruguay</b> <br /><br />
+                <strong>Teléfono:</strong> 094123035<br />
+                <strong>Mail:</strong>
+                <a
+                  href="mailto:udgarden.uy@gmail.com?subject=Contacto UD Garden"
+                  target="blank"
+                  style="color: azure"
+                >
+                  udgarden.uy@gmail.com</a
+                ><br />
               </p>
             </div>
 
-            <div class="icon-box">
-              <div class="icon"><i class="bi bi-moisture"></i></div>
-              <h4 class="title" style="color: #348C31;">Rendimiento:</h4>
-              <p class="description">Una bolsa de 50 litros rinde 1m<sup>2</sup> (5cm de espesor).</p>
+            <div class="col-lg-4 col-md-4 footer-info">
+              <a
+                href="https://articulo.mercadolibre.com.uy/MLU-476263637-mulch-de-eucalyptus-50-litros-jardin-paisajismo-biosustrato-_JM"
+                target="blank"
+                class="btn btn-comprar-footer"
+                >Mulch Eucalyptus <i class="bi bi-cart"></i
+              ></a>
+              <a
+                href="https://articulo.mercadolibre.com.uy/MLU-623147118-mulch-corteza-de-pino-50-litros-jardin-paisajismo--_JM#position=15&search_layout=stack&type=item&tracking_id=48ba21d7-ed57-4f14-af9b-c45eb97e80db"
+                target="blank"
+                class="btn btn-comprar-footer"
+                >Corteza de Pino <i class="bi bi-cart"></i
+              ></a>
             </div>
 
-          </div>
-        </div>
-
-      </div>
-    </section><!-- RECOMENDACIONES Y RENDIMIENTO Section Section -->
-
-    <!-- ======= PORTFOLIO Section ======= -->
-    <section class="portfolio" id="trabajos" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-      <br> <br>
-      <div class="container">
-
-        <div class="section-title">
-          <h2>- Trabajos -</h2>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Corteza de pino - maceta cerca.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Corteza de pino - maceta cerca.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
+            <div class="col-lg-4 col-md-4 footer-info">
+              <h3>Sobre UD Garden:</h3>
+              <p>
+                Empresa dedicada a la producción de mulch decorativo para
+                jardines y paisajismo.
+              </p>
+              <br />
+              <br />
+              <div class="social-links mt-3">
+                <a href="https://www.instagram.com/udgarden.uy/" target="blank"
+                  ><i class="bx bxl-instagram"></i
+                ></a>
+                <a
+                  href="mailto:udgarden.uy@gmail.com?subject=Contacto UD Garden"
+                  target="blank"
+                  class="bi-envelope"
+                ></a>
+                <a
+                  href="https://wa.me/094123035?text=Me%20interesa%20obtener%20informacion%20sobre%20su%20servicio."
+                  target="blank"
+                  ><i class="bx bxl-whatsapp"></i
+                ></a>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Maceta palmera cropped.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Maceta palmera.JPG" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Raphis y palmera.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Raphis y palmera.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Frente de casa.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Frente de casa.JPG" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\grand hotel cropped.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\grand hotel.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Huerta mica cropped.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Huerta mica.webp" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div> 
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Marrero frente.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Marrero frente.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Corteza de pino - pittosporum.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Corteza de pino - pittosporum.webp" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Ficus cropped.JPG" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Ficus.JPG" data-gallery="portfolioGallery" class="portfolio-lightbox"><i
-                      class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </div>
-          
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-        
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Faro jose ignacio 2.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Faro jose ignacio 2.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Corteza de pino -  diete cufia.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Corteza de pino -  diete cufia.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Marrero vista al jardin.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Marrero vista al jardin.webp" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Faro jose ignacio.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Faro jose ignacio.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Huerta vicky cropped.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Huerta vicky cropped.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\grand hotel (2) cropped.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\grand hotel (2).jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Huerta sarita.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Huerta sarita.jpg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\huerta mica 2 cropped.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\huerta mica 2.webp" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-wrap">
-            <div class="portfolio-item">
-              <img loading="lazy" src="assets\img\portfolio\Obra laurita.webp" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <div>
-                  <a href="assets\img\portfolio\Obra laurita.webp" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= CLIENTES Section ======= -->
-    <section class="testimonials" data-aos="fade-up" id="clientes"> <br> <br> <br> <br>
-
-      <div class="section-title ">
-        <h2>- Nuestros Clientes -</h2>
-      </div>
-
-      <div class="container ">
-        <div class="d-lg-flex justify-content-around">
-
-          <div class="testimonial-item">
-            <img loading="lazy" src="assets\img\nuestrosClientes\Gr Vivero Nativo.jpg" class="testimonial-img" alt="">
-            <h4>Vivero Nativo</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <img loading="lazy" src="assets\img\nuestrosClientes\puntaVerde.png" class="testimonial-img" alt="">
-            <h4>Punta Verde</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <img loading="lazy" src="assets\img\nuestrosClientes\Arpa arquitectura.png" class="testimonial-img" alt="">
-            <h4>Arpa Arquitectura</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <img loading="lazy" src="assets\img\nuestrosClientes\The grand hotel.jpg" class="testimonial-img" alt="">
-            <h4>The Grand Hotel</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <img loading="lazy" src="assets\img\nuestrosClientes\yoo.png" class="testimonial-img" alt="">
-            <h4>Yoo Punta del Este</h4>
-          </div>
-
-          <div class="testimonial-item">
-            <img loading="lazy" src="assets\img\nuestrosClientes\Explora vivero.png" class="testimonial-img" alt="">
-            <h4>Explora Vivero</h4>
-          </div>
-
         </div>
       </div>
+    </footer>
+    <!-- End Footer -->
 
-      </div>
-    </section><!-- End CLIENTES Section -->
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-    <!-- ======= CONTACTO Section ======= -->
-    <section class="contact" id="contacto" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-      <br> <br> <br>
-      <div class="section-title">
-        <h2>- Contacto -</h2>
-      </div>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-
-            <div class="row">
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bx bxl-instagram"></i>
-                  <h3>Instagram</h3>
-                  <p><a href="https://www.instagram.com/udgarden.uy/" target="blank"> UD Garden </a></p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bx bx-envelope"></i>
-                  <h3>Mail</h3>
-                  <p><a href="mailto:udgarden.uy@gmail.com?subject=Contacto UD Garden"
-                      target="blank">udgarden.uy@gmail.com</a></p>
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bx bxl-whatsapp"></i>
-                  <h3>Whatsapp</h3>
-                  <a href="https://wa.me/094123035?text=Me%20interesa%20obtener%20informacion%20sobre%20su%20servicio."
-                    target="blank">
-                    <p>094123035</p>
-                  </a>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bx bx-map"></i>
-                  <h3>Dirección</h3>
-                  <p>Montevideo / Punta del Este</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-    </section><!-- End CONTACTO Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 col-md-4 footer-contact">
-            <p>
-              Montevideo <br>
-              Punta del Este<br>
-              <b>Uruguay</b> <br><br>
-              <strong>Teléfono:</strong> 094123035<br>
-              <strong>Mail:</strong> <a href="mailto:udgarden.uy@gmail.com?subject=Contacto UD Garden" target="blank"
-                style="color: azure;"> udgarden.uy@gmail.com</a><br>
-            </p>
-          </div>
-
-          <div class="col-lg-4 col-md-4 footer-info">
-            <a href="https://articulo.mercadolibre.com.uy/MLU-476263637-mulch-de-eucalyptus-50-litros-jardin-paisajismo-biosustrato-_JM"
-              target="blank" class="btn btn-comprar-footer">Mulch Eucalyptus <i class="bi bi-cart"></i></a>
-            <a href="https://articulo.mercadolibre.com.uy/MLU-623147118-mulch-corteza-de-pino-50-litros-jardin-paisajismo--_JM#position=15&search_layout=stack&type=item&tracking_id=48ba21d7-ed57-4f14-af9b-c45eb97e80db"
-              target="blank" class="btn btn-comprar-footer">Corteza de Pino <i class="bi bi-cart"></i></a>
-          </div>
-
-          <div class="col-lg-4 col-md-4 footer-info">
-            <h3>Sobre UD Garden:</h3>
-            <p>Empresa dedicada a la producción de mulch decorativo para jardines y paisajismo.</p> <br> <br>
-            <div class="social-links mt-3">
-              <a href="https://www.instagram.com/udgarden.uy/" target="blank"><i class="bx bxl-instagram"></i></a>
-              <a href="mailto:udgarden.uy@gmail.com?subject=Contacto UD Garden" target="blank" class="bi-envelope"></a>
-              <a href="https://wa.me/094123035?text=Me%20interesa%20obtener%20informacion%20sobre%20su%20servicio."
-                target="blank"><i class="bx bxl-whatsapp"></i></a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-  </footer><!-- End Footer -->
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
