@@ -68,7 +68,6 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   height: 80px;
   transition: all 0.5s;
   z-index: 997;
-  transition: all 0.5s;
   background: #725a4de0;
 }
 #header.header-transparent {
@@ -303,6 +302,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   overflow: hidden;
   position: relative;
 }
+/*
 #hero::after {
   content: "";
   position: absolute;
@@ -310,11 +310,26 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.404)), url("../img/hero.jpg") center top repeat;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.404)), url("../img/posible fondo ud.jpg") no-repeat center center fixed;
+  background-size: contain;
+  z-index: 0;
+  border-radius: 0 0 50% 50%;
+  transform: translateX(-50%) rotate(0deg);
+}*/
+#hero::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 130%;
+  height: 95%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.12)), url("../img/posible fondo ud.jpg") no-repeat center center fixed;
+  background-size: cover;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
 }
+
 #hero::before {
   content: "";
   position: absolute;
@@ -763,12 +778,10 @@ section {
   animation-delay: 0s;
   -webkit-animation: pulsate-btn 2s;
   animation: pulsate-btn 2s;
-  -webkit-animation-direction: forwards;
-  animation-direction: forwards;
+
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  -webkit-animation-timing-function: steps;
-  animation-timing-function: steps;
+
   opacity: 1;
   border-radius: 50%;
   border: 5px solid rgba(219,181,111);
@@ -1100,7 +1113,6 @@ section {
   padding: 6px 30px;
   border-radius: 20px;
   color: #fff;
-  transition: none;
   font-size: 14px;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
@@ -1263,7 +1275,7 @@ section {
   padding: 0;
 }
 .portfolio-description ul {
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 /*--------------------------------------------------------------
@@ -1417,9 +1429,7 @@ section {
   box-shadow: none;
   font-size: 14px;
 }
-.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
-  background-color: #68A4C4;
-}
+
 .contact .php-email-form input {
   padding: 10px 15px;
 }
