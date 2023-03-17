@@ -9,4 +9,6 @@ License: https://bootstrapmade.com/license/
 
 BUGS!
 
-clientes en linea // SOLUCIONADO //
+- clientes en linea // SOLUCIONADO //
+
+- Cuando apretas en el mail no funciona 
