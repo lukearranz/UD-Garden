@@ -1,14 +1,10 @@
-Thanks for downloading this template!
+UD GARDEN LANDING PAGE
 
-Template Name: Moderna
-Template URL: https://bootstrapmade.com/free-bootstrap-template-corporate-moderna/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
-
-
+Autor: Lucas Arranz Garcia
+Cliente: UD Garden Uruguay
 
 BUGS!
 
-- clientes en linea // SOLUCIONADO //
-
-- Cuando apretas en el mail no funciona 
+- Clientes en linea // SOLUCIONADO //
+- Cuando apretas en el mail no funciona // SOLUCIONADO //
+- Mejora performance imagenes // SOLUCIONADO //
